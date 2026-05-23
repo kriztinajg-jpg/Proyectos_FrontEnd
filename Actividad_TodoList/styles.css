@@ -1,0 +1,120 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+.logo {
+  display: block;
+  margin: 2rem auto 1.5rem;
+  width: 220px;  
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #5a3216;           
+  font-family: 'Georgia', serif;  
+  letter-spacing: 1px;
+}
+
+
+#userInput {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.25rem;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+#userInput input[type="text"] {
+  width: calc(100% - 50px);
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+  outline: none;
+}
+
+#userInput input[type="text"]:focus {
+  border-color: #aaa;
+}
+
+
+#addBton {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-left: 6px;
+}
+
+#addBton:hover {
+  background: #f0f0f0;
+}
+
+
+#list-container {
+  margin-top: 1rem;
+}
+
+.task.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  background: #f9f9f9;
+}
+
+.task.container input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #534AB7;
+}
+
+.task.container label {
+  flex: 1;
+  font-size: 14px;
+  color: #333;
+}
+
+
+.closeBton {
+  width: 20px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.closeBton:hover {
+  opacity: 1;
+}
+
+
+#stats {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  font-size: 13px;
+  color: #777;
+  text-align: center;
+}
