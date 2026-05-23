@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1a1a2e;
+}
+
+#caja {
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    border-radius: 20px;
+    width: 300px;
+}
+
+label {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+p {
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 5px 0 15px 0;
+}

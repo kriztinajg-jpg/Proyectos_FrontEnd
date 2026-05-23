@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Selector de color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="caja">
+
+        <p>Rojo (R)</p>
+        <input type="range" min="0" max="255" value="0" id="rojo" oninput="cambiarColor()">
+        <p id="valorRojo">0</p>
+
+        <p>Verde (G)</p>
+        <input type="range" min="0" max="255" value="0" id="verde" oninput="cambiarColor()">
+        <p id="valorVerde">0</p>
+
+        <p>Azul (B)</p>
+        <input type="range" min="0" max="255" value="0" id="azul" oninput="cambiarColor()">
+        <p id="valorAzul">0</p>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
